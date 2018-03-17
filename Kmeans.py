@@ -38,10 +38,10 @@ plt.scatter(X[y_kmeans==0,0],X[y_kmeans==0,1],c='red',s=100,label = 'cluster1')
 plt.scatter(X[y_kmeans==1,0],X[y_kmeans==1,1],c='blue',s=100,label = 'cluster2')
 plt.scatter(X[y_kmeans==2,0],X[y_kmeans==2,1],c='green',s=100,label = 'cluster3')
 plt.scatter(X[y_kmeans==3,0],X[y_kmeans==3,1],c='cyan',s=100,label = 'cluster4')
-plt.scatter(X[y_kmeans==4,0],X[y_kmeans==4,1],c='megenta',s=100,label = 'cluster5')
+plt.scatter(X[y_kmeans==4,0],X[y_kmeans==4,1],c='magenta',s=100,label = 'cluster5')
 
 
-plt.scatter(kmeans.cluster_centers_[:,0],kmeans.cluster_centers_[:,1],c='yellow',s=100,label = 'centroids')
+plt.scatter(kmeans.cluster_centers_[:,0],kmeans.cluster_centers_[:,1],c='yellow',s=300,label = 'centroids')
 
 plt.title('cluster of clients')
 plt.xlabel('annual income ')
